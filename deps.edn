@@ -2,7 +2,7 @@
  :deps {
         io.github.kotoba-lang/spec-invalid
         {:git/url "https://github.com/kotoba-lang/spec-invalid.git"
-         :git/sha "e0b7cdf703fb067a212b12c9202b7a1327154977"}
+         :git/sha "39f1b780193e38824ca07087095bc026508f6572"}
         io.github.kotoba-lang/spec-valid
         {:git/url "https://github.com/kotoba-lang/spec-valid.git"
          :git/sha "67c03606849fc26669de45c057dfdec53341cbc8"}}

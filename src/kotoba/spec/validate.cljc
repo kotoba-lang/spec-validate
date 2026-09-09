@@ -9,6 +9,6 @@
             [kotoba.spec.valid :refer [valid?]]))
 
 (defn validate
-  "Return `x` if it conforms to `spec`, else `::invalid`."
+  "Return `x` if it conforms to `spec`, else `:kotoba.lang.spec/invalid`."
   [spec x]
   (if (valid? spec x) x invalid))
